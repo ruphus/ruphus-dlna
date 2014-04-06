@@ -3,9 +3,9 @@
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <DIDL-Lite 
-	xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" 
-	xmlns:dc="http://purl.org/dc/elements/1.1/" 
-	xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"
+    xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"
 >
   <item id="1" parentID="0" restricted="false">
     <dc:title>Breaking_Bad.mkv</dc:title>
