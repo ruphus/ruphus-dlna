@@ -1,4 +1,4 @@
-=Resources index=
+=Index=
 
   * [https://code.google.com/p/ruphus-dlna/wiki/BrowseRequest Players browse request filters]
   * [https://code.google.com/p/ruphus-dlna/wiki/LgDIDL DIDL response (with subs) to LG TV]
