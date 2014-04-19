@@ -1,6 +1,4 @@
-#summary One-sentence summary of this page.
-
-=DLNA.ORG flags=
+#summary DLNA.ORG flags
 
 ||80000000||31||`senderPaced`||
 ||40000000||30||`lsopTimeBasedSeekSupported`||
