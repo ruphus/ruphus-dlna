@@ -1,4 +1,4 @@
-=DIDL response (with subs) to LG TV=
+#summary DIDL response (with subs) to LG TV
 
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
