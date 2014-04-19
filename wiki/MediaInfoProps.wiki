@@ -5,7 +5,7 @@
 ==General==
 || *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
-||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
+||`Status`||bit field (0=`IsAccepted`, 1=`IsFilled`, 2=`IsUpdated`, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
 ||`StreamKind`||Stream type name||
 ||`StreamKind/String`||Stream type name||
@@ -92,12 +92,12 @@
 ||`FileSize/String3`||File size (with measure, 3 digit mini)||
 ||`FileSize/String4`||File size (with measure, 4 digit mini)||
 ||`Duration`||Play time of the stream in ms||
-||`Duration/String`||Play time in format: XXx YYy only, YYy omited if zero||
-||`Duration/String1`||Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration/String2`||Play time in format: XXx YYy only, YYy omited if zero||
-||`Duration/String3`||Play time in format: HH:MM:SS.MMM||
-||`Duration_Start ||
-||`Duration_End ||
+||`Duration/String`||Play time in format: `XXx YYy` only, `YYy` omited if zero||
+||`Duration/String1`||Play time in format: `HHh MMmn SSs MMMms`, `XX` omited if zero||
+||`Duration/String2`||Play time in format: `XXx YYy` only, `YYy` omited if zero||
+||`Duration/String3`||Play time in format: `HH:MM:SS.MMM`||
+||`Duration_Start || ||
+||`Duration_End || ||
 ||`OverallBitRate_Mode`||Bit rate mode of all streams (VBR, CBR)||
 ||`OverallBitRate_Mode/Strin`||Bit rate mode of all streams (Variable, Constant)||
 ||`OverallBitRate`||Bit rate of all streams in bps||
@@ -112,7 +112,7 @@
 ||`Delay/String`||Delay with measurement||
 ||`Delay/String1`||Delay with measurement||
 ||`Delay/String2`||Delay with measurement||
-||`Delay/String3`||format`||HH:MM:SS.MMM||
+||`Delay/String3`||format: `HH:MM:SS.MMM`||
 ||`StreamSize`||Stream size in bytes||
 ||`StreamSize/String ||
 ||`StreamSize/String1 ||
@@ -137,11 +137,11 @@
 ||`Season`||Name of the season, e.g. Strawars first Trilogy, Season 1||
 ||`Season_Position`||Number of the Season||
 ||`Season_Position_Total`||Place of the season e.g. 2 of 7||
-||`Movie`||Name of the movie. Eg`||Starwars, a new hope||
+||`Movie`||Name of the movie. Eg: `Starwars, a new hope`||
 ||`Movie/More`||More infos about the movie||
 ||`Movie/Country`||Country, where the movie was procuced||
 ||`Movie/Url`||Homepage for the movie||
-||`Album`||Name of an audio-album. Eg`||The joshua tree||
+||`Album`||Name of an audio-album. Eg: `The joshua tree`||
 ||`Album/More`||More infos about the album||
 ||`Album/Sort ||
 ||`Album/Performer`||Album performer/artist of this file||
