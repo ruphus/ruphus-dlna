@@ -4,7 +4,7 @@
 =Properties=
 
 ==General==
-||*Property*||*Description*||
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=`IsAccepted`, 1=`IsFilled`, 2=`IsUpdated`, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -291,7 +291,7 @@
 ||`EPG_Positions_End`|| ||
 
 ==Video==
-||*Property*||*Description*||
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -554,7 +554,7 @@
 ||`Forced/String`||Set if that track should be used if no language found matches the user preference.||
 ||`Encoded_Date`||UTC time that the encoding of this item was completed began.||
 ||`Tagged_Date`||UTC time that the tags were done for this item.||
-||`Encryption ||
+||`Encryption`|| ||
 ||`BufferSize`||Defines the size of the buffer needed to decode the sequence.||
 ||`colour_description_presen`||Presence of colour description||
 ||`colour_primaries`||Chromaticity coordinates of the source primaries||
@@ -566,7 +566,7 @@
 ||`matrix_coefficients_Origi`||Matrix coefficients used in deriving luma and chroma signals from the green, blue, and red primaries||
 
 ==Audio==
-||*Property*||*Description*||
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -788,9 +788,10 @@
 ||`Forced/String`||Set if that track should be used if no language found matches the user preference.||
 ||`Encoded_Date`||UTC time that the encoding of this item was completed began.||
 ||`Tagged_Date`||UTC time that the tags were done for this item.||
-||`Encryption ||
-||` ||
-||`Text ||
+||`Encryption`|| ||
+
+==Text==
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -1155,7 +1156,7 @@
 ||`matrix_coefficients_Origi`||Matrix coefficients used in deriving luma and chroma signals from the green, blue, and red primaries||
 
 ==Menu==
-||*Property*||*Description*||
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
