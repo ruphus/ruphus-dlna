@@ -1,17 +1,6 @@
-=Players browse request filters=
+=Index=
 
-==LG TV==
-{{{
-@id,@parentID,@restricted,@childCount,dc:title,dc:creator,upnp:artist,upnp:class,dc:date,upnp:album,upnp:genre,res,res@size,res@duration,res@protection,res@bitrate,res@resolution,res@protocolInfo,res@nrAudioChannels,res@sampleFrequency,upnp:albumArtURI,upnp:albumArtURI@dlna:profileID, res@dlna:cleartextSize
-}}}
-
-
-==SEC==
-{{{
-@id,@parentID,@restricted,dc:title,upnp:class,res,dc:date,@childCount,sec:CaptionInfo,sec:CaptionInfoEx, sec:dcmInfo, sec:MetaFileInfo,res@resolution,res@size,upnp:genre,dc:date,upnp:album,res@duration,upnp:albumArtURI,res@bitrate,dc:creator
-}}}
-
-==VLC==
-{{{
-*
-}}}
+  * [https://code.google.com/p/ruphus-dlna/wiki/BrowseRequest Players browse request filters]
+  * [https://code.google.com/p/ruphus-dlna/wiki/LgDIDL DIDL response (with subs) to LG TV]
+  * [https://code.google.com/p/ruphus-dlna/wiki/LgProtocols LG TV supported protocol infos]
+  * [https://code.google.com/p/ruphus-dlna/wiki/DlnaOrgFlags DLNA.ORG flags ]
