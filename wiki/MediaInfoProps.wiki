@@ -60,7 +60,7 @@
 ||`FolderName_Last`||Folder name only of the last file (in the case of a sequence of files)||
 ||`FileName_Last`||File name only of the last file (in the case of a sequence of files)||
 ||`FileExtension_Last`||File extension only of the last file (in the case of a sequence of files)||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/String`||Deprecated, do not use in new projects||
 ||`Format/Info`||Info about this Format||
 ||`Format/Url`||Link to a description of this format||
@@ -146,7 +146,7 @@
 ||`Album/More`||More infos about the album||
 ||`Album/Sort`|| ||
 ||`Album/Performer`||Album performer/artist of this file||
-||`Album/Performer/Sort ||
+||`Album/Performer/Sort`|| ||
 ||`Album/Performer/Url`||Homepage of the album performer/artist||
 ||`Comic`||Name of the comic.||
 ||`Comic/More`|| ||
@@ -308,7 +308,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -325,7 +325,7 @@
 ||`Format_Settings_QPel`||Settings needed for decoder used, detailled||
 ||`Format_Settings_QPel/Stri`||Settings needed for decoder used, detailled||
 ||`Format_Settings_GMC`||Settings needed for decoder used, detailled||
-||`Format_Settings_GMC/String ||
+||`Format_Settings_GMC/String` || ||
 ||`Format_Settings_Matrix`||Settings needed for decoder used, detailled||
 ||`Format_Settings_Matrix/St`||Settings needed for decoder used, detailled||
 ||`Format_Settings_Matrix_Da`||Matrix, in binary format encoded BASE64. Order = intra, non-intra, gray intra, gray non-intra||
@@ -583,7 +583,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about the format||
 ||`Format/Url`||Homepage of this format||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -592,19 +592,19 @@
 ||`Format_Profile`||Profile of this Format||
 ||`Format_Compression`||Compression method used||
 ||`Format_Settings`||Settings needed for decoder used, summary||
-||`Format_Settings_SBR ||
-||`Format_Settings_SBR/String ||
-||`Format_Settings_PS ||
-||`Format_Settings_PS/String ||
-||`Format_Settings_Mode ||
-||`Format_Settings_ModeExtension ||
-||`Format_Settings_Emphasis ||
-||`Format_Settings_Floor ||
-||`Format_Settings_Firm ||
-||`Format_Settings_Endianness ||
-||`Format_Settings_Sign ||
-||`Format_Settings_Law ||
-||`Format_Settings_ITU ||
+||`Format_Settings_SBR` || ||
+||`Format_Settings_SBR/String` || ||
+||`Format_Settings_PS` || ||
+||`Format_Settings_PS/String` || ||
+||`Format_Settings_Mode` || ||
+||`Format_Settings_ModeExtension` || ||
+||`Format_Settings_Emphasis` || ||
+||`Format_Settings_Floor` || ||
+||`Format_Settings_Firm` || ||
+||`Format_Settings_Endianness` || ||
+||`Format_Settings_Sign` || ||
+||`Format_Settings_Law` || ||
+||`Format_Settings_ITU` || ||
 ||`Format_Settings_Wrapping`||Wrapping mode (Frame wrapped or Clip wrapped)||
 ||`InternetMediaType`||Internet Media Type (aka MIME Type, Content-Type)||
 ||`MuxingMode`||How this stream is muxed in the container||
@@ -632,35 +632,35 @@
 ||`Codec_Settings_Law`||Deprecated, do not use in new projects||
 ||`Codec_Settings_ITU`||Deprecated, do not use in new projects||
 ||`Duration`||Play time of the stream||
-||`Duration/String`||Play time in format`||XXx YYy only, YYy omited if zero||
-||`Duration/String1`||Play time in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration/String2`||Play time in format`||XXx YYy only, YYy omited if zero||
-||`Duration/String3`||Play time in format`||HH:MM:SS.MMM||
+||`Duration/String`||Play time in format: XXx YYy only, YYy omited if zero||
+||`Duration/String1`||Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration/String2`||Play time in format: XXx YYy only, YYy omited if zero||
+||`Duration/String3`||Play time in format: HH:MM:SS.MMM||
 ||`Duration_FirstFrame`||Duration of the first frame if it is longer than others, in ms||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Duration_LastFrame`||Duration of the last frame if it is longer than others, in ms||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Source_Duration`||Source Play time of the stream||
-||`Source_Duration/String`||Source Play time in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration/String1`||Source Play time in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration/String2`||Source Play time in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration/String3`||Source Play time in format`||HH:MM:SS.MMM||
+||`Source_Duration/String`||Source Play time in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration/String1`||Source Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration/String2`||Source Play time in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration/String3`||Source Play time in format: HH:MM:SS.MMM||
 ||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in ms||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in ms||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`BitRate_Mode`||Bit rate mode (VBR, CBR)||
 ||`BitRate_Mode/String`||Bit rate mode (Constant, Variable)||
 ||`BitRate`||Bit rate in bps||
@@ -699,8 +699,8 @@
 ||`Delay/String`||Delay with measurement||
 ||`Delay/String1`||Delay with measurement||
 ||`Delay/String2`||Delay with measurement||
-||`Delay/String3`||Delay in format`||HH:MM:SS.MMM||
-||`Delay/String4`||Delay in format`||HH:MM:SS:FF (HH:MM:SS||
+||`Delay/String3`||Delay in format: HH:MM:SS.MMM||
+||`Delay/String4`||Delay in format: HH:MM:SS:FF (HH:MM:SS||
 ||`Delay_Settings`||Delay settings (in case of timecode for example)||
 ||`Delay_DropFrame`||Delay drop frame||
 ||`Delay_Source`||Delay source (Container or Stream or empty)||
@@ -808,7 +808,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -834,35 +834,35 @@
 ||`Codec/CC`||Deprecated||
 ||`Duration`||Play time of the stream||
 ||`Duration/String`||Play time (formated)||
-||`Duration/String1`||Play time in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration/String2`||Play time in format`||XXx YYy only, YYy omited if zero||
-||`Duration/String3`||Play time in format`||HH:MM:SS.MMM||
-||`Duration/String4`||Play time in format`||HH:MM:SS:FF (HH:MM:SS||
+||`Duration/String1`||Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration/String2`||Play time in format: XXx YYy only, YYy omited if zero||
+||`Duration/String3`||Play time in format: HH:MM:SS.MMM||
+||`Duration/String4`||Play time in format: HH:MM:SS:FF (HH:MM:SS||
 ||`Duration_FirstFrame`||Duration of the first frame if it is longer than others, in ms||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_FirstFrame/Strin`||Duration of the first frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Duration_LastFrame`||Duration of the last frame if it is longer than others, in ms||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Duration_LastFrame/String`||Duration of the last frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Source_Duration`||Source Play time of the stream||
-||`Source_Duration/String`||Source Play time in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration/String1`||Source Play time in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration/String2`||Source Play time in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration/String3`||Source Play time in format`||HH:MM:SS.MMM||
+||`Source_Duration/String`||Source Play time in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration/String1`||Source Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration/String2`||Source Play time in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration/String3`||Source Play time in format: HH:MM:SS.MMM||
 ||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in ms||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_FirstFram`||Source Duration of the first frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in ms||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||XXx YYy only, YYy omited if zero||
-||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format`||HH:MM:SS.MMM||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: XXx YYy only, YYy omited if zero||
+||`Source_Duration_LastFrame`||Source Duration of the last frame if it is longer than others, in format: HH:MM:SS.MMM||
 ||`BitRate_Mode`||Bit rate mode (VBR, CBR)||
 ||`BitRate_Mode/String`||Bit rate mode (Constant, Variable)||
 ||`BitRate`||Bit rate in bps||
@@ -906,8 +906,8 @@
 ||`Delay/String`||Delay with measurement||
 ||`Delay/String1`||Delay with measurement||
 ||`Delay/String2`||Delay with measurement||
-||`Delay/String3`||Delay in format`||HH:MM:SS.MMM||
-||`Delay/String4`||Delay in format`||HH:MM:SS:FF (HH:MM:SS||
+||`Delay/String3`||Delay in format: HH:MM:SS.MMM||
+||`Delay/String4`||Delay in format: HH:MM:SS:FF (HH:MM:SS||
 ||`Delay_Settings`||Delay settings (in case of timecode for example)||
 ||`Delay_DropFrame`||Delay drop frame||
 ||`Delay_Source`||Delay source (Container or Stream or empty)||
@@ -986,9 +986,10 @@
 ||`Summary ||
 ||`Encoded_Date`||The time that the encoding of this item was completed began.||
 ||`Tagged_Date`||The time that the tags were done for this item.||
-||`Encryption ||
-||` ||
-||`Other ||
+||`Encryption`|| ||
+
+==Other==
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -1006,7 +1007,7 @@
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
 ||`Type`||Type||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -1023,10 +1024,10 @@
 ||`CodecID/Url`||A link to more details about this codec ID||
 ||`CodecID_Description`||Manual description given by the container||
 ||`Duration`||Play time of the stream in ms||
-||`Duration/String`||Play time in format`||XXx YYy only, YYy omited if zero||
-||`Duration/String1`||Play time in format`||HHh MMmn SSs MMMms, XX omited if zero||
-||`Duration/String2`||Play time in format`||XXx YYy only, YYy omited if zero||
-||`Duration/String3`||Play time in format`||HH:MM:SS.MMM||
+||`Duration/String`||Play time in format: XXx YYy only, YYy omited if zero||
+||`Duration/String1`||Play time in format: HHh MMmn SSs MMMms, XX omited if zero||
+||`Duration/String2`||Play time in format: XXx YYy only, YYy omited if zero||
+||`Duration/String3`||Play time in format: HH:MM:SS.MMM||
 ||`Duration_Start ||
 ||`Duration_End ||
 ||`FrameRate`||Frames per second||
@@ -1036,7 +1037,7 @@
 ||`TimeStamp_FirstFrame/Stri`||TimeStamp with measurement||
 ||`TimeStamp_FirstFrame/Stri`||TimeStamp with measurement||
 ||`TimeStamp_FirstFrame/Stri`||TimeStamp with measurement||
-||`TimeStamp_FirstFrame/Stri`||TimeStamp in format`||HH:MM:SS.MMM||
+||`TimeStamp_FirstFrame/Stri`||TimeStamp in format: HH:MM:SS.MMM||
 ||`TimeCode_FirstFrame`||Time code in HH:MM:SS:FF (HH:MM:SS||
 ||`TimeCode_Settings`||Time code settings||
 ||`Title`||Name of this menu||
@@ -1047,8 +1048,9 @@
 ||`Language/String3`||Language (3-letter ISO 639-2 if exists, else empty)||
 ||`Language/String4`||Language (2-letter ISO 639-1 if exists with optional ISO 3166-1 country separated by a dash if available, e.g. en, en-us, zh-cn, else empty)||
 ||`Language_More`||More info about Language (e.g. Director's Comment)||
-||` ||
-||`Image ||
+
+==Image==
+|| *Property* || *Description* ||
 ||`Count`||Count of objects available in this stream||
 ||`Status`||bit field (0=IsAccepted, 1=IsFilled, 2=IsUpdated, 3=IsFinished)||
 ||`StreamCount`||Count of streams of that kind available||
@@ -1066,7 +1068,7 @@
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
 ||`Title`||Name of the track||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -1145,7 +1147,7 @@
 ||`Summary ||
 ||`Encoded_Date`||The time that the encoding of this item was completed began.||
 ||`Tagged_Date`||The time that the tags were done for this item.||
-||`Encryption ||
+||`Encryption`|| ||
 ||`colour_description_presen`||Presence of colour description||
 ||`colour_primaries`||Chromaticity coordinates of the source primaries||
 ||`transfer_characteristics`||Opto-electronic transfer characteristic of the source picture||
@@ -1173,7 +1175,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`Format`||Format used||
+||`format: Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
