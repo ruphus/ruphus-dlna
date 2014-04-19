@@ -1,6 +1,7 @@
 #summary MediaInfo properties
 
 <wiki:toc />
+=MediaInfo properties=
 
 ==General==
 || *Property* || *Description* ||
