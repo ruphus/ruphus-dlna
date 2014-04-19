@@ -727,7 +727,7 @@
 ||`Video0_Delay/String3`||Deprecated, do not use in new projects||
 ||`Video0_Delay/String4`||Deprecated, do not use in new projects||
 ||`ReplayGain_Gain`||The gain to apply to reach 89dB SPL on playback||
-||`ReplayGain_Gain/String ||
+||`ReplayGain_Gain/String`|| ||
 ||`ReplayGain_Peak`||The maximum absolute peak value of the item||
 ||`StreamSize`||Streamsize in bytes||
 ||`StreamSize/String`||Streamsize in with percentage value||
@@ -922,11 +922,11 @@
 ||`Delay_Original_DropFrame`||Delay drop frame info||
 ||`Delay_Original_Source`||Delay source (Stream or empty)||
 ||`Video_Delay`||Delay fixed in the stream (absolute / video)||
-||`Video_Delay/String ||
-||`Video_Delay/String1 ||
-||`Video_Delay/String2 ||
-||`Video_Delay/String3 ||
-||`Video_Delay/String4 ||
+||`Video_Delay/String`|| ||
+||`Video_Delay/String1`|| ||
+||`Video_Delay/String2`|| ||
+||`Video_Delay/String3`|| ||
+||`Video_Delay/String4`|| ||
 ||`Video0_Delay`||Deprecated, do not use in new projects||
 ||`Video0_Delay/String`||Deprecated, do not use in new projects||
 ||`Video0_Delay/String1`||Deprecated, do not use in new projects||
@@ -943,26 +943,26 @@
 ||`StreamSize_Proportion`||Stream size divided by file size||
 ||`Source_StreamSize`||Source Streamsize in bytes||
 ||`Source_StreamSize/String`||Source Streamsize in with percentage value||
-||`Source_StreamSize/String1 ||
-||`Source_StreamSize/String2 ||
-||`Source_StreamSize/String3 ||
-||`Source_StreamSize/String4 ||
+||`Source_StreamSize/String1`|| ||
+||`Source_StreamSize/String2`|| ||
+||`Source_StreamSize/String3`|| ||
+||`Source_StreamSize/String4`|| ||
 ||`Source_StreamSize/String5`||Source Streamsize in with percentage value||
 ||`Source_StreamSize_Proport`||Source Stream size divided by file size||
 ||`StreamSize_Encoded`||Encoded Streamsize in bytes||
 ||`StreamSize_Encoded/String`||Encoded Streamsize in with percentage value||
-||`StreamSize_Encoded/String1 ||
-||`StreamSize_Encoded/String2 ||
-||`StreamSize_Encoded/String3 ||
-||`StreamSize_Encoded/String4 ||
+||`StreamSize_Encoded/String1`|| ||
+||`StreamSize_Encoded/String2`|| ||
+||`StreamSize_Encoded/String3`|| ||
+||`StreamSize_Encoded/String4`|| ||
 ||`StreamSize_Encoded/String`||Encoded Streamsize in with percentage value||
 ||`StreamSize_Encoded_Propor`||Encoded Stream size divided by file size||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in bytes||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in with percentage value||
-||`Source_StreamSize_Encoded/String1 ||
-||`Source_StreamSize_Encoded/String2 ||
-||`Source_StreamSize_Encoded/String3 ||
-||`Source_StreamSize_Encoded/String4 ||
+||`Source_StreamSize_Encoded/String1`|| ||
+||`Source_StreamSize_Encoded/String2`|| ||
+||`Source_StreamSize_Encoded/String3`|| ||
+||`Source_StreamSize_Encoded/String4`|| ||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in with percentage value||
 ||`Source_StreamSize_Encoded`||Source Encoded Stream size divided by file size||
 ||`Title`||Name of the track||
