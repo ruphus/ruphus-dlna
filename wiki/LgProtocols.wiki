@@ -1,4 +1,4 @@
-=LG TV supported protocol infos=
+#summary LG TV supported protocol infos
 
 {{{
 http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_SM,
