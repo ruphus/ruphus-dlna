@@ -96,8 +96,8 @@
 ||`Duration/String1`||Play time in format: `HHh MMmn SSs MMMms`, `XX` omited if zero||
 ||`Duration/String2`||Play time in format: `XXx YYy` only, `YYy` omited if zero||
 ||`Duration/String3`||Play time in format: `HH:MM:SS.MMM`||
-||`Duration_Start || ||
-||`Duration_End || ||
+||`Duration_Start`|| ||
+||`Duration_End`|| ||
 ||`OverallBitRate_Mode`||Bit rate mode of all streams (VBR, CBR)||
 ||`OverallBitRate_Mode/Strin`||Bit rate mode of all streams (Variable, Constant)||
 ||`OverallBitRate`||Bit rate of all streams in bps||
@@ -114,21 +114,21 @@
 ||`Delay/String2`||Delay with measurement||
 ||`Delay/String3`||format: `HH:MM:SS.MMM`||
 ||`StreamSize`||Stream size in bytes||
-||`StreamSize/String ||
-||`StreamSize/String1 ||
-||`StreamSize/String2 ||
-||`StreamSize/String3 ||
-||`StreamSize/String4 ||
+||`StreamSize/String`|| ||
+||`StreamSize/String1`|| ||
+||`StreamSize/String2`|| ||
+||`StreamSize/String3`|| ||
+||`StreamSize/String4`|| ||
 ||`StreamSize/String5`||With proportion||
 ||`StreamSize_Proportion`||Stream size divided by file size||
-||`HeaderSize ||
-||`DataSize ||
-||`FooterSize ||
-||`IsStreamable ||
+||`HeaderSize`|| ||
+||`DataSize`|| ||
+||`FooterSize`|| ||
+||`IsStreamable`|| ||
 ||`Album_ReplayGain_Gain`||The gain to apply to reach 89dB SPL on playback||
-||`Album_ReplayGain_Gain/String ||
+||`Album_ReplayGain_Gain/String`|| ||
 ||`Album_ReplayGain_Peak`||The maximum absolute peak value of the item||
-||`Encryption ||
+||`Encryption`|| ||
 ||`Title`||(Generic)Title of file||
 ||`Title/More`||(Generic)More info about the title of file||
 ||`Title/Url`||(Generic)Url||
@@ -143,20 +143,20 @@
 ||`Movie/Url`||Homepage for the movie||
 ||`Album`||Name of an audio-album. Eg: `The joshua tree`||
 ||`Album/More`||More infos about the album||
-||`Album/Sort ||
+||`Album/Sort`|| ||
 ||`Album/Performer`||Album performer/artist of this file||
 ||`Album/Performer/Sort ||
 ||`Album/Performer/Url`||Homepage of the album performer/artist||
 ||`Comic`||Name of the comic.||
-||`Comic/More ||
-||`Comic/Position_Total ||
+||`Comic/More`|| ||
+||`Comic/Position_Total`|| ||
 ||`Part`||Name of the part. e.g. CD1, CD2||
 ||`Part/Position`||Number of the part||
 ||`Part/Position_Total`||Place of the part e.g. 2 of 3||
 ||`Track`||Name of the track. e.g. track1, track 2||
 ||`Track/More`||More infos about the track||
 ||`Track/Url`||Link to a site about this track||
-||`Track/Sort ||
+||`Track/Sort`|| ||
 ||`Track/Position`||Number of this track||
 ||`Track/Position_Total`||Place of this track, e.g. 3 of 15||
 ||`Grouping`||iTunes grouping||
@@ -169,7 +169,7 @@
 ||`Compilation`||iTunes compilation||
 ||`Compilation/String`||iTunes compilation||
 ||`Performer`||Main performer/artist of this file||
-||`Performer/Sort ||
+||`Performer/Sort`|| ||
 ||`Performer/Url`||Homepage of the performer/artist||
 ||`Original/Performer`||Original artist(s)/performer(s).||
 ||`Accompaniment`||Band/orchestra/accompaniment/musician.||
@@ -264,20 +264,20 @@
 ||`Copyright/Url`||Link to a site with copyright/legal information.||
 ||`Producer_Copyright`||The copyright information as per the productioncopyright holder.||
 ||`TermsOfUse`||License information, e.g., All Rights Reserved,Any Use Permitted.||
-||`ServiceName ||
-||`ServiceChannel ||
-||`Service/Url ||
-||`ServiceProvider ||
-||`ServiceProviderr/Url ||
-||`ServiceType ||
-||`NetworkName ||
-||`OriginalNetworkName ||
-||`Country ||
-||`TimeZone ||
+||`ServiceName`|| ||
+||`ServiceChannel`|| ||
+||`Service/Url`|| ||
+||`ServiceProvider`|| ||
+||`ServiceProviderr/Url`|| ||
+||`ServiceType`|| ||
+||`NetworkName`|| ||
+||`OriginalNetworkName`|| ||
+||`Country`|| ||
+||`TimeZone`|| ||
 ||`Cover`||Is there a cover||
 ||`Cover_Description`||short descriptio, e.g. Earth in space||
-||`Cover_Type ||
-||`Cover_Mime ||
+||`Cover_Type`|| ||
+||`Cover_Mime`|| ||
 ||`Cover_Data`||Cover, in binary format encoded BASE64||
 ||`Lyrics`||Text of a song||
 ||`Comment`||Any comment related to the content.||
@@ -286,8 +286,8 @@
 ||`Played_First_Date`||The date, the owner first played an item||
 ||`Played_Last_Date`||The date, the owner last played an item||
 ||`Played_Count`||Number of times an item was played||
-||`EPG_Positions_Begin ||
-||`EPG_Positions_End||
+||`EPG_Positions_Begin`|| ||
+||`EPG_Positions_End`|| ||
 
 ==Video==
 ||`Count`||Count of objects available in this stream||
@@ -450,19 +450,19 @@
 ||`Resolution`||Deprecated, do not use in new projects||
 ||`Resolution/String`||Deprecated, do not use in new projects||
 ||`Colorimetry`||Deprecated, do not use in new projects||
-||`ColorSpace ||
-||`ChromaSubsampling ||
+||`ColorSpace`|| ||
+||`ChromaSubsampling`|| ||
 ||`BitDepth`||16/24/32||
 ||`BitDepth/String`||16/24/32 bits||
-||`ScanType ||
-||`ScanType/String ||
-||`ScanType_Original ||
-||`ScanType_Original/String ||
-||`ScanOrder ||
-||`ScanOrder/String ||
-||`ScanOrder_StoredDisplayedInverted ||
-||`ScanOrder_Original ||
-||`ScanOrder_Original/String ||
+||`ScanType`|| ||
+||`ScanType/String`|| ||
+||`ScanType_Original`|| ||
+||`ScanType_Original/String`|| ||
+||`ScanOrder`|| ||
+||`ScanOrder/String`|| ||
+||`ScanOrder_StoredDisplayedInverted`|| ||
+||`ScanOrder_Original`|| ||
+||`ScanOrder_Original/String`|| ||
 ||`Interlacement`||Deprecated, do not use in new projects||
 ||`Interlacement/String`||Deprecated, do not use in new projects||
 ||`Compression_Mode`||Compression mode (Lossy or Lossless)||
@@ -498,38 +498,38 @@
 ||`TimeCode_Source`||Time code source (Container, Stream, SystemScheme1, SDTI, ANC...)||
 ||`StreamSize`||Streamsize in bytes||
 ||`StreamSize/String`||Streamsize in with percentage value||
-||`StreamSize/String1 ||
-||`StreamSize/String2 ||
-||`StreamSize/String3 ||
-||`StreamSize/String4 ||
+||`StreamSize/String1`|| ||
+||`StreamSize/String2`|| ||
+||`StreamSize/String3`|| ||
+||`StreamSize/String4`|| ||
 ||`StreamSize/String5`||Streamsize in with percentage value||
 ||`StreamSize_Proportion`||Stream size divided by file size||
 ||`Source_StreamSize`||Source Streamsize in bytes||
 ||`Source_StreamSize/String`||Source Streamsize in with percentage value||
-||`Source_StreamSize/String1 ||
-||`Source_StreamSize/String2 ||
-||`Source_StreamSize/String3 ||
-||`Source_StreamSize/String4 ||
+||`Source_StreamSize/String1`|| ||
+||`Source_StreamSize/String2`|| ||
+||`Source_StreamSize/String3`|| ||
+||`Source_StreamSize/String4`|| ||
 ||`Source_StreamSize/String5`||Source Streamsize in with percentage value||
 ||`Source_StreamSize_Proport`||Source Stream size divided by file size||
 ||`StreamSize_Encoded`||Encoded Streamsize in bytes||
 ||`StreamSize_Encoded/String`||Encoded Streamsize in with percentage value||
-||`StreamSize_Encoded/String1 ||
-||`StreamSize_Encoded/String2 ||
-||`StreamSize_Encoded/String3 ||
-||`StreamSize_Encoded/String4 ||
+||`StreamSize_Encoded/String1`|| ||
+||`StreamSize_Encoded/String2`|| ||
+||`StreamSize_Encoded/String3`|| ||
+||`StreamSize_Encoded/String4`|| ||
 ||`StreamSize_Encoded/String`||Encoded Streamsize in with percentage value||
 ||`StreamSize_Encoded_Propor`||Encoded Stream size divided by file size||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in bytes||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in with percentage value||
-||`Source_StreamSize_Encoded/String1 ||
-||`Source_StreamSize_Encoded/String2 ||
-||`Source_StreamSize_Encoded/String3 ||
-||`Source_StreamSize_Encoded/String4 ||
+||`Source_StreamSize_Encoded/String1`|| ||
+||`Source_StreamSize_Encoded/String2`|| ||
+||`Source_StreamSize_Encoded/String3`|| ||
+||`Source_StreamSize_Encoded/String4`|| ||
 ||`Source_StreamSize_Encoded`||Source Encoded Streamsize in with percentage value||
 ||`Source_StreamSize_Encoded`||Source Encoded Stream size divided by file size||
 ||`Alignment`||How this stream file is aligned in the container||
-||`Alignment/String ||
+||`Alignment/String`|| ||
 ||`Title`||Name of the track||
 ||`Encoded_Application`||Software. Identifies the name of the software package used to create the file, such as Microsoft WaveEdit.||
 ||`Encoded_Application/Url`||Software. Identifies the name of the software package used to create the file, such as Microsoft WaveEdit.||
