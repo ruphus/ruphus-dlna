@@ -60,7 +60,7 @@
 ||`FolderName_Last`||Folder name only of the last file (in the case of a sequence of files)||
 ||`FileName_Last`||File name only of the last file (in the case of a sequence of files)||
 ||`FileExtension_Last`||File extension only of the last file (in the case of a sequence of files)||
-||`format: Format used||
+||`Format` ||Format used||
 ||`Format/String`||Deprecated, do not use in new projects||
 ||`Format/Info`||Info about this Format||
 ||`Format/Url`||Link to a description of this format||
@@ -308,7 +308,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -583,7 +583,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about the format||
 ||`Format/Url`||Homepage of this format||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -808,7 +808,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -1007,7 +1007,7 @@
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
 ||`Type`||Type||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -1068,7 +1068,7 @@
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
 ||`Title`||Name of the track||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
@@ -1175,7 +1175,7 @@
 ||`UniqueID/String`||The unique ID for this stream, should be copied with stream copy||
 ||`MenuID`||The menu ID for this stream in this file||
 ||`MenuID/String`||The menu ID for this stream in this file||
-||`format: Format used||
+||`Format`||Format used||
 ||`Format/Info`||Info about Format||
 ||`Format/Url`||Link||
 ||`Format_Commercial`||Commercial name used by vendor for theses setings or Format field if there is no difference||
